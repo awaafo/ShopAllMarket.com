@@ -4,37 +4,56 @@ This project is an online marketplace built with PHP and MySQL featuring user re
 
 
 
-## How to View Your Website Locally Using XAMPP
 
-To view your website locally using XAMPP, follow these steps:
 
-### 1. Start XAMPP Server
-**Action**:
-- Open **XAMPP Control Panel** on your computer.
-- Start **Apache** (for the web server) and **MySQL** (if you're using a database).
-- Wait for both services to show "Running".
+# ShopAllMarket  
 
-**Expected Outcome**: Your local server is now running.
+Welcome to the **ShopAllMarket** project! This repository contains all the files needed to view and run the website locally using XAMPP.  
+
+---
+ 
+
+## Prerequisites  
+1. [Download XAMPP](https://www.apachefriends.org/index.html) and install it on your computer.  
+2. A web browser (e.g., Chrome, Firefox).  
 
 ---
 
-### 2. Place Your Project Files in the Correct Directory
-**Action**:
-- Open the directory where XAMPP is installed (e.g., `C:\xampp\htdocs\` on Windows).
-- Create a new folder inside `htdocs` for your project, for example: `ShopAllMarket`.
-- Copy all your website files (e.g., HTML, CSS, JavaScript, images, etc.) into this folder.
+## How to View the Website Locally  
 
-**Expected Outcome**: Your website files are now accessible via the XAMPP server.
+Follow these steps to set up and view the website on your local machine:  
+
+### 1. Download the Project Files  
+- Click the **Code** button on this repository's main page.  
+- Select **Download ZIP** to get the project files.  
+- Extract the downloaded ZIP file to a folder on your computer.  
+
+---
+
+### 2. Start XAMPP Server  
+- Open the **XAMPP Control Panel**.  
+- Start the **Apache** server (and **MySQL** if required).  
+- Ensure both services show "Running".  
 
 ---
 
-### 3. Access Your Website in the Browser
-**Action**:
-- Open a web browser (e.g., Chrome, Firefox, Safari).
-- In the browser’s address bar, type `localhost/ShopAllMarket` (replace "ShopAllMarket" with the name of your folder if different).
-- Press `Enter`.
-
-**Expected Outcome**: The homepage of your website should load, and you can interact with it just like any live website.
+### 3. Place the Files in the Correct Directory  
+- Navigate to where XAMPP is installed (default is `C:\xampp\htdocs\` on Windows).  
+- Create a folder named `ShopAllMarket` (or any name you prefer).  
+- Copy the extracted project files into this folder.  
 
 ---
+
+### 4. Access the Website in Your Browser  
+- Open a web browser.  
+- Type `http://localhost/ShopAllMarket` (replace `ShopAllMarket` with your folder name, if different) in the address bar.  
+- Press Enter.  
+
+You should now see your website loaded locally!  
+
+---
+
+## License  
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+--
 
